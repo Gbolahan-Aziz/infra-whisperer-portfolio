@@ -62,9 +62,9 @@ const Hero = () => {
             <div className="relative w-80 h-80 mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full opacity-20 animate-pulse"></div>
               <img
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=500&fit=crop&crop=face"
+                src="/lovable-uploads/3a1dec8e-0d27-4129-acda-95d9fdf410a8.png"
                 alt="Azeez Razaq - DevOps Engineer"
-                className="relative z-10 w-full h-full object-cover rounded-full border-4 border-background shadow-2xl"
+                className="relative z-10 w-full h-full object-cover object-center rounded-full border-4 border-background shadow-2xl"
               />
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full opacity-30 blur-lg"></div>
             </div>
