@@ -8,9 +8,9 @@ const skillCategories = [
     title: "Cloud Platforms",
     icon: <Cloud className="h-6 w-6" />,
     skills: [
-      { name: "AWS", level: 95 },
-      { name: "Azure", level: 85 },
-      { name: "Google Cloud", level: 80 },
+      { name: "Azure", level: 95 },
+      { name: "AWS", level: 80 },
+      { name: "Google Cloud", level: 70 },
       { name: "DigitalOcean", level: 75 }
     ]
   },
@@ -20,28 +20,28 @@ const skillCategories = [
     skills: [
       { name: "Kubernetes", level: 90 },
       { name: "Docker", level: 95 },
-      { name: "Helm", level: 85 },
-      { name: "OpenShift", level: 70 }
+      { name: "Helm", level: 90 },
+      { name: "EKS", level: 85 }
     ]
   },
   {
     title: "Infrastructure as Code",
     icon: <Code className="h-6 w-6" />,
     skills: [
-      { name: "Terraform", level: 90 },
-      { name: "Ansible", level: 85 },
-      { name: "CloudFormation", level: 80 },
-      { name: "Pulumi", level: 65 }
+      { name: "Terraform", level: 95 },
+      { name: "Ansible", level: 80 },
+      { name: "Bash Scripting", level: 90 },
+      { name: "Python", level: 85 }
     ]
   },
   {
     title: "CI/CD & Version Control",
     icon: <GitBranch className="h-6 w-6" />,
     skills: [
-      { name: "Jenkins", level: 90 },
-      { name: "GitLab CI", level: 85 },
-      { name: "GitHub Actions", level: 80 },
-      { name: "ArgoCD", level: 75 }
+      { name: "GitHub Actions", level: 90 },
+      { name: "Jenkins", level: 80 },
+      { name: "GitLab CI", level: 75 },
+      { name: "Azure DevOps", level: 85 }
     ]
   },
   {
@@ -50,18 +50,18 @@ const skillCategories = [
     skills: [
       { name: "Prometheus", level: 85 },
       { name: "Grafana", level: 90 },
-      { name: "ELK Stack", level: 80 },
-      { name: "Datadog", level: 75 }
+      { name: "Datadog", level: 85 },
+      { name: "Azure Monitor", level: 80 }
     ]
   },
   {
     title: "Security & Compliance",
     icon: <Shield className="h-6 w-6" />,
     skills: [
-      { name: "HashiCorp Vault", level: 80 },
-      { name: "SAST/DAST", level: 75 },
-      { name: "CIS Benchmarks", level: 85 },
-      { name: "SOC 2", level: 70 }
+      { name: "HashiCorp Vault", level: 75 },
+      { name: "Azure Security", level: 85 },
+      { name: "SAST/DAST", level: 70 },
+      { name: "Compliance", level: 80 }
     ]
   }
 ];

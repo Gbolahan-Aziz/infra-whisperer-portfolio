@@ -5,46 +5,62 @@ import { Calendar, Building } from "lucide-react";
 
 const experiences = [
   {
-    title: "Senior DevOps Engineer",
-    company: "TechFlow Solutions",
-    period: "2022 - Present",
-    location: "San Francisco, CA",
-    description: "Leading DevOps initiatives for a fintech startup, managing infrastructure serving 2M+ users. Implemented GitOps workflows and reduced deployment failures by 80%.",
+    title: "DevOps Specialist",
+    company: "Zone",
+    period: "03/2025 - Present",
+    location: "Lagos, Nigeria",
+    description: "Configuring and maintaining Helm charts to deploy solutions for PTSA, Bank, and OFI institutions, ensuring consistent and reliable releases.",
     achievements: [
-      "Architected multi-region AWS infrastructure supporting 99.99% uptime",
-      "Reduced infrastructure costs by 40% through right-sizing and automation",
-      "Led migration from monolith to microservices architecture",
-      "Mentored 5 junior engineers on DevOps best practices"
+      "Configured and maintained Helm charts for financial institutions",
+      "Developed automation tools to streamline development workflows",
+      "Created CI/CD pipelines for APIs, smart contracts, and code development",
+      "Provided infrastructure support improving system stability and deployment success rates"
     ],
-    tech: ["AWS", "Kubernetes", "Terraform", "Jenkins", "Prometheus"]
+    tech: ["Helm", "Kubernetes", "Azure", "CI/CD", "APIs"]
   },
   {
     title: "DevOps Engineer",
-    company: "CloudNative Corp",
-    period: "2020 - 2022",
-    location: "Austin, TX",
-    description: "Designed and maintained CI/CD pipelines for a SaaS platform. Implemented infrastructure as code practices and improved deployment frequency from weekly to daily.",
+    company: "Ice Commercial Power",
+    period: "11/2022 - 02/2025",
+    location: "Lagos, Nigeria",
+    description: "Designed and implemented infrastructure for the Catalyst App using Terraform, Bash, Azure, and GitHub Actions, ensuring 99.9% application uptime.",
     achievements: [
-      "Built comprehensive monitoring stack with Prometheus and Grafana",
-      "Automated infrastructure provisioning reducing setup time by 75%",
-      "Implemented security scanning in CI/CD pipelines",
-      "Achieved SOC 2 Type II compliance"
+      "Designed infrastructure for Catalyst App using Terraform and Azure",
+      "Built robust CI/CD pipeline streamlining project build to deployment",
+      "Delivered clean, reusable Infrastructure-as-Code configurations",
+      "Ensured 99.9% application uptime with security best practices",
+      "Reduced infrastructure costs by 20% through optimization"
     ],
-    tech: ["Azure", "Docker", "Ansible", "GitLab CI", "Grafana"]
+    tech: ["Terraform", "Azure", "GitHub Actions", "Bash", "IaC"]
   },
   {
-    title: "Systems Administrator",
-    company: "DataCore Systems",
-    period: "2018 - 2020",
-    location: "Denver, CO",
-    description: "Managed on-premise infrastructure and started the journey towards cloud adoption. Introduced containerization and modern deployment practices.",
+    title: "DevOps Engineer",
+    company: "Freelancer",
+    period: "03/2021 - 09/2022",
+    location: "Lagos, Nigeria",
+    description: "Streamlined Azure deployments and developed CI/CD pipelines, improving operational efficiency by 25% through automation.",
     achievements: [
-      "Migrated 50+ applications to containerized environments",
-      "Implemented automated backup and disaster recovery procedures",
-      "Reduced server provisioning time from days to hours",
-      "Introduced configuration management with Ansible"
+      "Streamlined Azure deployments reducing deployment time",
+      "Automated processes with cron, Python, and Bash improving efficiency by 25%",
+      "Enhanced code readability by containerizing applications, reducing runtime issues by 40%",
+      "Built and managed Kubernetes workloads ensuring scalability",
+      "Implemented Datadog monitoring improving issue detection speed"
     ],
-    tech: ["VMware", "Docker", "Linux", "Ansible", "Nagios"]
+    tech: ["Azure", "Python", "Bash", "Docker", "Kubernetes", "Datadog"]
+  },
+  {
+    title: "Data Scientist Intern",
+    company: "HamoyeAI Labs",
+    period: "06/2020 - 12/2020",
+    location: "Lagos, Nigeria",
+    description: "Analyzed large datasets using SQL and Python, designed machine learning models, and developed Power BI dashboards for data visualization.",
+    achievements: [
+      "Analyzed large datasets using SQL and Python for data-driven decisions",
+      "Designed and trained supervised and unsupervised ML models",
+      "Developed and optimized Power BI dashboards",
+      "Managed databases ensuring data integrity and seamless integration"
+    ],
+    tech: ["Python", "SQL", "Power BI", "Machine Learning", "Data Analysis"]
   }
 ];
 
@@ -55,7 +71,7 @@ const Experience = () => {
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl lg:text-5xl font-bold">Professional Journey</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            My career progression in building and scaling infrastructure
+            4+ years of experience in DevOps, automation, and cloud infrastructure
           </p>
         </div>
         

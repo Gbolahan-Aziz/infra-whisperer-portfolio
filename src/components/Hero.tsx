@@ -16,12 +16,13 @@ const Hero = () => {
                 </span>
               </h1>
               <h2 className="text-2xl lg:text-3xl text-muted-foreground font-medium">
-                DevOps Engineer & Cloud Architect
+                DevOps Engineer & Cloud Specialist
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-                I build scalable infrastructure and automate everything in sight. 
-                Passionate about creating reliable systems that help teams ship faster 
-                and sleep better at night. ☁️
+                I'm a DevOps Engineer with 4+ years of hands-on experience supporting, 
+                automating, and optimizing mission critical deployments in cloud services 
+                like Azure. I leverage configuration management tools, developing and 
+                maintaining CI/CD and DevOps processes. 🚀
               </p>
             </div>
             
@@ -38,22 +39,26 @@ const Hero = () => {
             
             <div className="flex space-x-6">
               <a 
-                href="#" 
+                href="https://github.com/Gbolahan-Aziz" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-200"
               >
                 <Github className="h-6 w-6" />
               </a>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/azeez-razaq-76279a1a0" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-200"
               >
                 <Linkedin className="h-6 w-6" />
               </a>
               <a 
-                href="#" 
+                href="mailto:razaq.gbolahan01@gmail.com" 
                 className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-200"
               >
-                <ExternalLink className="h-6 w-6" />
+                <Mail className="h-6 w-6" />
               </a>
             </div>
           </div>

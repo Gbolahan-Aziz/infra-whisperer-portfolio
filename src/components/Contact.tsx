@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl lg:text-5xl font-bold">Let's Build Something Amazing</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to optimize your infrastructure? Let's chat over coffee ☕ and discuss how we can scale your systems together.
+            Ready to optimize your infrastructure? Let's chat and discuss how we can scale your systems together. 🚀
           </p>
         </div>
         
@@ -34,7 +34,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-muted-foreground">alex.devops@email.com</p>
+                  <p className="text-muted-foreground">razaq.gbolahan01@gmail.com</p>
                 </div>
               </div>
               
@@ -44,7 +44,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">(+234) 8173157846</p>
                 </div>
               </div>
               
@@ -54,7 +54,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium">Location</p>
-                  <p className="text-muted-foreground">San Francisco, CA</p>
+                  <p className="text-muted-foreground">Lagos, Nigeria</p>
                 </div>
               </div>
               

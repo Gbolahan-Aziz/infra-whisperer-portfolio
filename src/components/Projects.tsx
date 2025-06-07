@@ -6,29 +6,29 @@ import { Github, ExternalLink, Server, Cloud, Database } from "lucide-react";
 
 const projects = [
   {
-    title: "Multi-Cloud Kubernetes Platform",
-    description: "Built a robust multi-cloud Kubernetes platform supporting 500+ microservices across AWS, Azure, and GCP with 99.9% uptime.",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=300&fit=crop",
-    tech: ["Kubernetes", "Terraform", "ArgoCD", "Prometheus", "Grafana"],
+    title: "Vintage Games Platform",
+    description: "Built a platform hosting multiple games, including Tetris and 2048. Traffic is routed using Nginx ingress and load balancer controllers. Utilized Kustomize for environment-specific Kubernetes deployments and EKS for managed Kubernetes services.",
+    image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=300&fit=crop",
+    tech: ["Kubernetes", "EKS", "Nginx", "Kustomize", "GitHub Actions", "Docker"],
     icon: <Cloud className="h-6 w-6" />,
-    github: "#",
+    github: "https://github.com/Gbolahan-Aziz/Vintage-Games.git",
     demo: "#"
   },
   {
-    title: "CI/CD Pipeline Automation",
-    description: "Designed and implemented GitOps-based CI/CD pipelines reducing deployment time by 75% and increasing deployment frequency to 50+ per day.",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=300&fit=crop",
-    tech: ["Jenkins", "GitLab CI", "Docker", "Helm", "SonarQube"],
-    icon: <Server className="h-6 w-6" />,
-    github: "#",
+    title: "Fast Food App Monitoring & Alerting",
+    description: "Developed a dockerized web application with frontend and backend. Integrated Prometheus and Grafana for real-time monitoring and alerting, ensuring performance and reliability. Employed Docker Compose for efficient container orchestration.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=300&fit=crop",
+    tech: ["Docker", "Prometheus", "Grafana", "Docker Compose", "Monitoring", "Alerting"],
+    icon: <Database className="h-6 w-6" />,
+    github: "https://github.com/Gbolahan-Aziz/Fast-Food-app-Monitoring-Alerting.git",
     demo: "#"
   },
   {
     title: "Infrastructure as Code Framework",
-    description: "Created a comprehensive IaC framework using Terraform modules, reducing infrastructure provisioning time from days to hours.",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&h=300&fit=crop",
-    tech: ["Terraform", "Ansible", "AWS", "Azure", "Vault"],
-    icon: <Database className="h-6 w-6" />,
+    description: "Created comprehensive IaC configurations using Terraform for Azure deployments. Built reusable modules and implemented CI/CD pipelines for infrastructure automation, reducing deployment time and ensuring consistent environments.",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=300&fit=crop",
+    tech: ["Terraform", "Azure", "CI/CD", "Infrastructure as Code", "Automation"],
+    icon: <Server className="h-6 w-6" />,
     github: "#",
     demo: "#"
   }
@@ -41,7 +41,7 @@ const Projects = () => {
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl lg:text-5xl font-bold">Featured Projects</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Here are some of the projects I've worked on that showcase my DevOps expertise
+            Real-world projects showcasing my DevOps expertise and cloud infrastructure skills
           </p>
         </div>
         
@@ -78,13 +78,17 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex space-x-2">
-                  <Button size="sm" variant="outline" className="flex-1">
-                    <Github className="mr-2 h-4 w-4" />
-                    Code
+                  <Button size="sm" variant="outline" className="flex-1" asChild>
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="mr-2 h-4 w-4" />
+                      Code
+                    </a>
                   </Button>
-                  <Button size="sm" className="flex-1">
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Demo
+                  <Button size="sm" className="flex-1" asChild>
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Demo
+                    </a>
                   </Button>
                 </div>
               </CardContent>
