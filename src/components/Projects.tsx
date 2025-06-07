@@ -12,7 +12,7 @@ const projects = [
     tech: ["Kubernetes", "EKS", "Nginx", "Kustomize", "GitHub Actions", "Docker"],
     icon: <Cloud className="h-6 w-6" />,
     github: "https://github.com/Gbolahan-Aziz/Vintage-Games.git",
-    demo: "/tetris.gif"
+    demo: "/video.mp4"
   },
   {
     title: "Fast Food App Monitoring & Alerting",
