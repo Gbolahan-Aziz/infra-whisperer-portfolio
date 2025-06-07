@@ -31,7 +31,7 @@ const Navigation = () => {
       <div className="container max-w-6xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <div className="font-bold text-xl bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-            Alex.dev
+            Azeez.dev
           </div>
           
           {/* Desktop Navigation */}

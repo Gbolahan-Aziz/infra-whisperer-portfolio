@@ -23,7 +23,7 @@ const Index = () => {
       <footer className="bg-muted/50 border-t py-8 px-6">
         <div className="container max-w-6xl mx-auto text-center">
           <p className="text-muted-foreground">
-            © 2024 Alex Johnson. Built with React, TypeScript, and lots of ☕
+            © 2024 Azeez Razaq. Built with React, TypeScript, and lots of ☕
           </p>
           <p className="text-sm text-muted-foreground mt-2">
             "Infrastructure is not just about technology, it's about enabling dreams" 🚀

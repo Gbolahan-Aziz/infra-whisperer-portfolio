@@ -12,7 +12,7 @@ const Hero = () => {
               <h1 className="text-5xl lg:text-7xl font-bold tracking-tight">
                 Hey, I'm{" "}
                 <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-                  Alex
+                  Azeez
                 </span>
               </h1>
               <h2 className="text-2xl lg:text-3xl text-muted-foreground font-medium">
@@ -63,7 +63,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full opacity-20 animate-pulse"></div>
               <img
                 src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=500&fit=crop&crop=face"
-                alt="DevOps Engineer"
+                alt="Azeez Razaq - DevOps Engineer"
                 className="relative z-10 w-full h-full object-cover rounded-full border-4 border-background shadow-2xl"
               />
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full opacity-30 blur-lg"></div>
