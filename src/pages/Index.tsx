@@ -1,12 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import Navigation from "@/components/Navigation";
+import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
+import Contact from "@/components/Contact";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Navigation />
+      <main>
+        <section id="home">
+          <Hero />
+        </section>
+        <Projects />
+        <Skills />
+        <Experience />
+        <Contact />
+      </main>
+      
+      <footer className="bg-muted/50 border-t py-8 px-6">
+        <div className="container max-w-6xl mx-auto text-center">
+          <p className="text-muted-foreground">
+            © 2024 Alex Johnson. Built with React, TypeScript, and lots of ☕
+          </p>
+          <p className="text-sm text-muted-foreground mt-2">
+            "Infrastructure is not just about technology, it's about enabling dreams" 🚀
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };
