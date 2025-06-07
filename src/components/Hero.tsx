@@ -27,13 +27,17 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-wrap gap-4">
-              <Button size="lg" className="group">
-                <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
-                Download CV
+              <Button size="lg" className="group" asChild>
+                <a href="/Azeez-Razaq-2025.pdf" download="Azeez-Razaq-CV-2025.pdf">
+                  <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
+                  Download CV
+                </a>
               </Button>
-              <Button variant="outline" size="lg" className="group">
-                <Mail className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
-                Get in Touch
+              <Button variant="outline" size="lg" className="group" asChild>
+                <a href="mailto:razaq.gbolahan01@gmail.com">
+                  <Mail className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
+                  Get in Touch
+                </a>
               </Button>
             </div>
             
