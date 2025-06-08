@@ -26,7 +26,7 @@ const Index = () => {
         <div className="container max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div className="space-y-4">
-              <h3 className="text-xl font-bold text-gradient">Azeez.dev</h3>
+              <h3 className="text-xl font-bold text-gradient">Razaq</h3>
               <p className="text-muted-foreground">
                 Building scalable infrastructure and optimizing DevOps workflows for modern applications.
               </p>

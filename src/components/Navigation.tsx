@@ -39,7 +39,7 @@ const Navigation = () => {
       <div className="container max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <div className="font-bold text-xl text-gradient animate-glow">
-            Azeez.dev
+            Razaq
           </div>
           
           {/* Desktop Navigation */}
