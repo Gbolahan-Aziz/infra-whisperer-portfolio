@@ -40,7 +40,7 @@ const Hero = () => {
             
             <div className="flex flex-wrap gap-4">
               <Button size="lg" className="group bg-gradient-to-r from-primary to-accent hover:from-accent hover:to-primary transition-all duration-300 glow" asChild>
-                <a href="/Azeez-Razaq-2025.pdf" download="Azeez-Razaq-CV-2025.pdf">
+                <a href="/Azeez-Razaq-2025.pdf" download="Azeez-Razaq-2025.pdf">
                   <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
                   Download CV
                 </a>
