@@ -30,26 +30,27 @@ const projects = [
     demo: "https://github.com/Gbolahan-Aziz/Vintage-Games.git",
   },
   {
-    title: "Fast Food App Monitoring & Alerting",
+    title: "FlashDeals API (Go, ELK Stack, Docker)",
     description:
-      "Developed a dockerized web application with frontend and backend. Integrated Prometheus and Grafana for real-time monitoring and alerting, ensuring performance and reliability. Employed Docker Compose for efficient container orchestration.",
+      "Flash sales API written in Go and monitored using the ELK stack and Filebeat.",
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=300&fit=crop",
     tech: [
+      "Go",
       "Docker",
-      "Prometheus",
-      "Grafana",
+      "Filebeat",
       "Docker Compose",
-      "Monitoring",
-      "Alerting",
+      "Elasticsearch",
+      "Logstash",
+      "Kibana"
     ],
     icon: <Database className="h-6 w-6" />,
     github:
-      "https://github.com/Gbolahan-Aziz/Fast-Food-app-Monitoring-Alerting.git",
-    demo: "https://github.com/Gbolahan-Aziz/Fast-Food-app-Monitoring-Alerting.git",
+      "https://github.com/Gbolahan-Aziz/FlashDeal-API-ELK.git",
+    demo: "https://github.com/Gbolahan-Aziz/FlashDeal-API-ELK.git",
   },
   {
-    title: "AWS EKS API Gateway Integration",
+    title: "Task API",
     description:
       "Built a production-ready infrastructure using Terraform to deploy a Flask API on AWS EKS, exposed via API Gateway with VPC Link and secured using a custom Lambda authorizer. Automated the full stack with CI/CD and designed it to be teardown-ready for repeatable demos and testing.",
     image:

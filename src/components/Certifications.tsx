@@ -7,23 +7,33 @@ import { FadeInWhenVisible } from "./ui/FadeInWhenVisible";
 
 const certifications = [
   {
+    name: "Certified Kubermetes Administrator (CKA)",
+    provider: "The Linux Foundation",
+    date: "2025",
+    description: "Demonstrated expertise in kubernetes administration and management .",
+    image: "https://www.simplilearn.com/ice9/webinar_thum_image/Kubernetes_Tutorial.jpg",
+    verified: true,
+    credentialUrl: "http://credly.com/badges/07256809-a0d3-43b0-ad7d-03f7e8fa7f79/public_url",
+    skills: ["Linux", "Orchestration", "Containerization", "System Administration"]
+  },
+  {
     name: "Certified Terraform Associate",
     provider: "HashiCorp",
     date: "2023",
     description: "Demonstrated expertise in Infrastructure as Code using Terraform for cloud resource management and automation.",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=300&h=200&fit=crop",
     verified: true,
-    credentialUrl: "#",
+    credentialUrl: "http://credly.com/badges/501676c3-c8b9-4a5f-8d80-663d55bc1837/linked_in_profile",
     skills: ["Terraform", "Infrastructure as Code", "Cloud Automation", "Resource Management"]
   },
   {
     name: "Bachelor of Science",
     provider: "Lagos State University",
-    date: "2021",
+    date: "2022",
     description: "BSc in Pure & Applied Physics, with a focus on theoretical physics, applied physics, and mathematics.",
-    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=300&h=200&fit=crop",
+    image: "https://independent.ng/wp-content/uploads/2017/12/Graduation.jpg",
     verified: true,
-    credentialUrl: "https://www.lasu.edu.ng",
+    credentialUrl: "https://drive.google.com/file/d/1-HDZ3dQrJiFVBaO68xxPu66BfDo13ewA/view?usp=drivesdk",
     skills: ["Computer Science", "Physics", "Mathematics"]
   }
 ];
