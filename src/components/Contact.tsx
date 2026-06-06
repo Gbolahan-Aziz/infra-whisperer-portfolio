@@ -64,7 +64,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium">Availability</p>
-                  <p className="text-muted-foreground">Open to opportunities</p>
+                  <p className="text-muted-foreground">Open to challenging &amp; exciting opportunities</p>
                 </div>
               </div>
             </div>

@@ -20,10 +20,11 @@ const Navigation = () => {
 
   const navItems = [
     { label: "Home", href: "#home" },
+    { label: "Experience", href: "#experience" },
     { label: "Projects", href: "#projects" },
+    { label: "Skills", href: "#skills" },
     { label: "Blog", href: "#blog" },
     { label: "Certifications", href: "#certifications" },
-    { label: "Experience", href: "#experience" },
     { label: "Contact", href: "#contact" },
   ];
 
@@ -61,7 +62,7 @@ const Navigation = () => {
               className="bg-gradient-to-r from-primary to-accent hover:from-accent hover:to-primary transition-all duration-300 glow"
               onClick={() => setIsModalOpen(true)}
             >
-              Request Demo
+              Hire Me
             </Button>
           </div>
 
@@ -102,14 +103,14 @@ const Navigation = () => {
                 className="w-full bg-gradient-to-r from-primary to-accent hover:from-accent hover:to-primary transition-all duration-300"
                 onClick={() => setIsModalOpen(true)}
               >
-                Request Demo
+                Hire Me
               </Button>
             </div>
           </div>
         )}
       </div>
 
-      {/* Request Demo Modal */}
+      {/* Hire Me Modal */}
       <RequestDemoModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}

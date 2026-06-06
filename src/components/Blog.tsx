@@ -45,6 +45,16 @@ const blogPosts = [
     slug: "customising-kubernetes-resource-configurations-with-kustomize",
     url: "https://medium.com/@I_am_zee/customising-kubernetes-resource-configurations-with-kustomize-199e99bf7a60",
   },
+  {
+    title: "Slot Deployments with Helm",
+    summary: "A practical guide to zero-downtime deployments using Helm deployment slots — covering blue/green and canary patterns, rollback strategies and production-grade release management on Kubernetes.",
+    coverImage: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=600&h=300&fit=crop",
+    tags: ["Helm", "Kubernetes", "Zero-Downtime", "DevOps"],
+    readTime: "7 min read",
+    date: "2025",
+    slug: "slot-deployments-with-helm",
+    url: "https://medium.com/@I_am_zee",
+  },
 ];
 
 const Blog = () => {

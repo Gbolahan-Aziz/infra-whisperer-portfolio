@@ -1,9 +1,10 @@
 import Navigation from "@/components/Navigation";
 import Hero from "../components/Hero";
+import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
 import Blog from "@/components/Blog";
 import Certifications from "@/components/Certifications";
-import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 import { useEffect } from "react";
 import { FadeInWhenVisible } from "@/components/ui/FadeInWhenVisible";
@@ -21,10 +22,11 @@ const Index = () => {
             <Hero />
           </section>
         </FadeInWhenVisible>
+        <Experience />
         <Projects />
+        <Skills />
         <Blog />
         <Certifications />
-        <Experience />
         <Contact />
       </main>
       <footer className="bg-background w-full py-10 max-sm:px-2 px-6">
