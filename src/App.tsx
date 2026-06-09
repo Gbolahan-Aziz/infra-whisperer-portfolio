@@ -1,4 +1,5 @@
 
+import { useEffect } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -10,7 +11,28 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-const App = () => (
+// Keep Render free-tier services warm while the portfolio is open
+const RENDER_SERVICES = [
+  "https://flashdeal-api-monitoring.onrender.com/healthz",
+  "https://eks-api-hardening-setup.onrender.com/healthz",
+];
+
+function useKeepAlive() {
+  useEffect(() => {
+    const ping = () => {
+      RENDER_SERVICES.forEach((url) => {
+        fetch(url, { mode: "no-cors" }).catch(() => {});
+      });
+    };
+    ping();
+    const id = setInterval(ping, 10 * 60 * 1000); // every 10 minutes
+    return () => clearInterval(id);
+  }, []);
+}
+
+const App = () => {
+  useKeepAlive();
+  return (
   <QueryClientProvider client={queryClient}>
     <ThemeProvider>
       <TooltipProvider>
@@ -26,6 +48,7 @@ const App = () => (
       </TooltipProvider>
     </ThemeProvider>
   </QueryClientProvider>
-);
+  );
+};
 
 export default App;

@@ -14,7 +14,7 @@ const projects = [
     tech: ["Kubernetes", "EKS", "Nginx", "Kustomize", "GitHub Actions", "Docker"],
     icon: <Cloud className="h-5 w-5" />,
     github: "https://github.com/Gbolahan-Aziz/Vintage-Games.git",
-    demo: "https://github.com/Gbolahan-Aziz/Vintage-Games.git",
+    demo: "https://vintage-games.onrender.com",
     highlight: null,
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     tech: ["Go", "Docker Compose", "Elasticsearch", "Logstash", "Kibana", "Filebeat"],
     icon: <Database className="h-5 w-5" />,
     github: "https://github.com/Gbolahan-Aziz/FlashDeal-API-ELK.git",
-    demo: "https://github.com/Gbolahan-Aziz/FlashDeal-API-ELK.git",
+    demo: "https://flashdeal-api-monitoring.onrender.com/",
     highlight: null,
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     tech: ["Terraform", "AWS", "EKS", "API Gateway", "Lambda", "VPC Link", "GitHub Actions"],
     icon: <Server className="h-5 w-5" />,
     github: "https://github.com/Gbolahan-Aziz/EKS-API-Integration.git",
-    demo: "https://github.com/Gbolahan-Aziz/EKS-API-Integration.git",
+    demo: "https://eks-api-hardening-setup.onrender.com/",
     highlight: null,
   },
   {

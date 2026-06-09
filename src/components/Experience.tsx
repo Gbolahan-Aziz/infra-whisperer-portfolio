@@ -16,7 +16,7 @@ const experiences = [
       "Leading migration of services from Docker Compose to Kubernetes, improving scalability and deployment consistency",
       "Standardising deployment practices across international teams in a fully remote, multi-timezone setup",
     ],
-    tech: ["Kubernetes", "Docker", "GitHub Actions", "Azure", "Terraform", "Helm"],
+    tech: ["Kubernetes", "Docker", "AWS", "PHP", "Python", "Bash", "Jenkins"],
   },
   {
     title: "DevOps Specialist",
